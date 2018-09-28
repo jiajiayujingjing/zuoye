@@ -1,0 +1,49 @@
+html, body {
+    color: black;
+    font-size: 14px;
+}
+
+.articleBox {
+    margin: 0 auto;
+    width: 50px;
+}
+
+.headerBox {
+    margin: 20px 0;
+}
+
+.headerBox h1 {
+    font-size: 18px;
+    line-height: 10px;
+}
+
+.headerBox div {
+    font-size: 13px;
+    line-height: 10px;
+}
+
+.headerBox div span:nth-of-type(1) {
+    color: #576B95;
+}
+
+.headerBox div span:nth-of-type(2) {
+    color: #AAA;
+    margin-left: 10px;
+}
+.mainBox p{
+    margin-top: 10px;
+    text-indent: 20px;
+    line-height: 20px;
+}
+.mainBox img{
+    margin: 20px 0;
+    width: 80%;
+}
+@media all and (max-width:640px){
+    .articleBox{
+        width:100%;
+        padding:0 10px;
+        box-sizing:border-box;
+    }
+
+}
